@@ -6,6 +6,9 @@
 
 #### **Module 1: Foundations of Probability in Trading**  
 **Objective**: Understand why probability is the cornerstone of trading success.  
+
+![WhatsApp Image 2025-02-27 at 18 06 48](https://github.com/user-attachments/assets/00caf817-0281-4555-a25a-7d771c92caf4)
+
 **Lessons**:  
 1. **Trading as a Probability Game**  
    - Why randomness dominates short-term outcomes.  
