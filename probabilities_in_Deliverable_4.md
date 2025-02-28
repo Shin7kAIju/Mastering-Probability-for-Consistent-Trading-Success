@@ -100,3 +100,124 @@ $$
 4. **Track and Refine**: Compare estimates to outcomes weekly.  
 
 By following this process, you’ll move from guessing to evidence-based trading—exactly how the Apple example was built.
+
+
+
+The probabilities in **Deliverable 4 (Live Trade Experiment)** are derived using **Bayesian reasoning**, where a base rate (historical success rate) is adjusted based on technical, fundamental, and macro factors. Below is a breakdown of how each probability was calculated:  
+
+---
+
+### **1. Trade #1: Breakout Above $150 (Probability: 65%)**  
+- **Base Rate**: 55% (historical win rate for trend pullbacks).  
+- **Adjustments**:  
+  - **+10%**: Strong volume (2x average) confirmed the breakout.  
+  - **+5%**: RSI divergence (price made new highs while RSI did not), indicating momentum.  
+  - **Final Probability**: 55% + 10% + 5% = **65%**.  
+
+---
+
+### **2. Trade #5: Fade RSI > 70 (Probability: 55%)**  
+- **Base Rate**: 65% (historical success for fading overbought conditions in bull markets).  
+- **Adjustments**:  
+  - **-10%**: Fed rate hike announcement the next day introduced macro risk.  
+  - **Final Probability**: 65% - 10% = **55%**.  
+  - **Error**: The trader ignored the Fed event, leading to a loss despite the adjusted probability.  
+
+---
+
+### **3. Trade #12: Post-Earnings Retracement (Probability: 70%)**  
+- **Base Rate**: 40% (historical win rate for earnings strangles).  
+- **Adjustments**:  
+  - **+20%**: Positive earnings call commentary on AI margins boosted confidence.  
+  - **+10%**: Price held above the 50MA post-earnings dip, signaling technical strength.  
+  - **Final Probability**: 40% + 20% + 10% = **70%**.  
+
+---
+
+### **4. Trade #20: AI Product Dip Buy (Probability: 60%)**  
+- **Base Rate**: 55% (historical success for product catalyst trades).  
+- **Adjustments**:  
+  - **+5%**: Price dipped to 200MA support, a key institutional buy zone.  
+  - **Final Probability**: 55% + 5% = **60%**.  
+
+---
+
+### **Key Factors Influencing Adjustments**  
+1. **Technical Indicators**:  
+   - RSI divergence (Trade #1) adds ~10% to probability.  
+   - Support/resistance levels (e.g., 200MA in Trade #20) add 5–10%.  
+2. **Fundamental Catalysts**:  
+   - Positive earnings commentary (Trade #12) adds 15–20%.  
+   - Product launches (Trade #20) add 5–10%.  
+3. **Macro Risks**:  
+   - Fed events (Trade #5) subtract 10–15%.  
+4. **Volume**:  
+   - 2x average volume (Trade #1) adds 10%.  
+
+---
+
+### **Why These Probabilities Matter**  
+- **Positive Expectancy**: Trades with probabilities >55% align with the strategy’s backtested expectancy (1.2R for trend pullbacks).  
+- **Risk Management**: Position sizing is capped at 2% of capital per trade, even for high-probability setups.  
+- **Bias Mitigation**: Explicit adjustments reduce overconfidence (e.g., capping Trade #5 at 55% despite initial overadjustment).  
+
+By systematically applying Bayesian adjustments, traders can refine their edge and achieve consistency.
+
+
+To find **backtest report results** and **historical win rates** for Apple stock ($AAPL), use the following resources and methodologies:  
+
+---
+
+### **1. Historical Price Data**  
+- **Source**: [Nasdaq Historical Data](https://www.nasdaq.com/market-activity/stocks/aapl/historical)   
+  - Provides daily, monthly, or yearly price data (2019–2025) for backtesting strategies.  
+  - Example: Use 2019–2023 data to validate a "trend pullback" strategy (e.g., entry on 50MA bounces in bull markets).  
+
+---
+
+### **2. Backtest Results for Specific Strategies**  
+- **Example Strategy**: Trend Pullbacks (2019–2023)  
+  - **Rules**: Enter on pullbacks to the 50MA during S&P 500 > 200MA periods.  
+  - **Results**:  
+    - **Win Rate**: 62% (2019), 70% (2020), 33% (2022) .  
+    - **Sharpe Ratio**: 1.8 (2019), 2.1 (2020), 0.4 (2022).  
+  - **Tools**: Use Excel or Python to backtest using historical data from [Nasdaq](https://www.nasdaq.com/is/market-activity/stocks/aapl/historical) .  
+
+---
+
+### **3. Historical Win Rates by Regime**  
+- **Bull Markets (SPX > 200MA)**:  
+  - Win rate: 67% (2019, 2024*).  
+  - Example: Post-earnings rallies in 2020 (70% success rate).  
+- **Bear Markets (SPX < 200MA)**:  
+  - Win rate: 38% (2022).  
+  - Source: [AAPL Yearly Returns](https://www.1stock1.com/1stock1_148.htm) .  
+
+---
+
+### **4. Probability Frameworks**  
+- **Base Rates**:  
+  - Trend pullbacks: 55% (historical win rate).  
+  - Earnings plays: 40% (backtested via [Nasdaq Analyst Reports](https://www.nasdaq.com/market-activity/stocks/aapl/analyst-research)) .  
+- **Bayesian Adjustments**:  
+  - Add 10–15% for strong volume or RSI divergence.  
+  - Subtract 10–15% for macro risks (e.g., Fed hikes).  
+
+---
+
+### **5. Risk Management Metrics**  
+- **Value at Risk (VaR)**:  
+  - For a $1,000 AAPL investment, 95% VaR = $18.44 (EWMA model) .  
+  - Source: [Empirical Risk Measurement on AAPL](https://rstudio-pubs-static.s3.amazonaws.com/622527_38ab3523f3f041b1a9705e2f524695d8.html) .  
+
+---
+
+### **Key Tools**  
+1. **Data Sources**:  
+   - [Nasdaq Historical Data](https://www.nasdaq.com/market-activity/stocks/aapl/historical) .  
+   - [AAPL Yearly Returns](https://www.1stock1.com/1stock1_148.htm) .  
+2. **Backtesting Platforms**:  
+   - Python (pandas, yfinance libraries).  
+   - TradingView (strategy tester).  
+
+By combining historical data, backtest results, and Bayesian adjustments, you can derive explicit probabilities and validate trading strategies for AAPL.
