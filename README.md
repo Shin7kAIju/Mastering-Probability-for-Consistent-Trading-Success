@@ -4,7 +4,7 @@
 ---
 
 ## **Overview**  
-This repository is a comprehensive guide to mastering probability-based trading. It combines theoretical frameworks, practical tools, and real-world examples (using Apple stock as a case study) to help traders build a consistent edge. The curriculum is inspired by Jesse Livermore’s disciplined approach and modern probabilistic thinking.  
+This repository is a comprehensive guide to mastering probability-based trading. It combines theoretical frameworks, practical tools, and real-world examples (using Apple stock as a case study) to help traders build a consistent edge. The curriculum is inspired by the use of systematic disciplined approach and modern probabilistic thinking.  
 
 Whether you're a beginner or an experienced trader, this repository will teach you how to:  
 1. Estimate and track trade probabilities accurately.  
