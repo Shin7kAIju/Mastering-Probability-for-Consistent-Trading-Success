@@ -1,6 +1,7 @@
 
 ### **Curriculum: Mastering Probability-Driven Trading**  
 *Duration: 6–8 Weeks (Self-Paced)*  
+![WhatsApp Image 2025-02-27 at 18 12 49](https://github.com/user-attachments/assets/4571a432-c596-47cf-a811-64874d3839c8)
 
 ---
 
@@ -84,7 +85,10 @@
 ---
 
 #### **Module 5: Probability-Driven Trading Strategies**  
-**Objective**: Build systematic strategies with defined edges.  
+**Objective**: Build systematic strategies with defined edges. 
+![WhatsApp Image 2025-02-27 at 18 10 02](https://github.com/user-attachments/assets/e6261202-98a6-4592-8564-ae8e553242db)
+![WhatsApp Image 2025-02-27 at 18 14 22](https://github.com/user-attachments/assets/e1ad3f0d-3612-4916-89d1-efd668a3c6c1)
+
 **Lessons**:  
 1. **Trend Pullback Strategy**  
    - Bayesian adjustments for pullback depth and volume.  
