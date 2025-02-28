@@ -1,9 +1,3 @@
-# Mastering-Probability-for-Consistent-Trading-Success
-
-Here’s a **README file** for your GitHub repository titled **"Mastering Probability for Consistent Trading Success"**. This README provides an overview of the repository, its contents, and how to use it effectively.
-
----
-
 # Mastering Probability for Consistent Trading Success  
 **A structured curriculum to transform trading from gambling to a systematic, probability-driven edge.**  
 
