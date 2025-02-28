@@ -62,3 +62,74 @@
 - For your next 10 trades, write down explicit probability estimates (e.g., “35% chance of profit”). Track outcomes and adjust your process.  
 
 By mastering probability, you transform trading from a gamble into a systematic, evidence-based pursuit—just like Livermore did. 🎯
+
+
+
+To arrive at the explicit probability estimates in **Deliverable 4 (Live Trade Experiment)**, follow this structured, data-driven process:  
+
+---
+
+### **Step 1: Define the Base Rate**  
+Start with a **neutral probability** (e.g., 50%) or a **historical success rate** for the strategy. For example:  
+- **Trend Pullbacks**: Base rate = 55% (from Backtest Report results).  
+- **Earnings Plays**: Base rate = 40% (historical win rate).  
+
+---
+
+### **Step 2: Apply Bayesian Adjustments**  
+Adjust the base rate using **technical, fundamental, and macro factors**. Here’s how the example trades were calibrated:  
+
+#### **Example 1: Breakout Above $150 (Trade #1, Mar 1, 2023)**  
+- **Base Rate**: 55% (trend pullback strategy).  
+- **Adjustments**:  
+  - **+10%**: Strong volume (2x average) confirmed breakout.  
+  - **+5%**: RSI divergence (price made new highs, RSI did not), indicating momentum.  
+  - **Final Probability**: 55% + 10% + 5% = **65%**.  
+
+#### **Example 2: Fade RSI > 70 (Trade #5, Jun 15, 2023)**  
+- **Base Rate**: 40% (historical success for fading overbought conditions).  
+- **Adjustments**:  
+  - **-10%**: Fed rate hike announcement the next day (macro risk).  
+  - **Final Probability**: 40% - 10% = **30%**.  
+  - **Error**: Overadjusted for the Fed event (actual outcome was a loss, but the trade was still taken due to perceived low risk).  
+
+#### **Example 3: Post-Earnings Retracement (Trade #12, Feb 5, 2024)**  
+- **Base Rate**: 40% (earnings strangle strategy).  
+- **Adjustments**:  
+  - **+20%**: Positive earnings call commentary on AI product margins.  
+  - **+10%**: Stock held above 50MA post-earnings dip.  
+  - **Final Probability**: 40% + 20% + 10% = **70%**.  
+
+#### **Example 4: AI Product Dip Buy (Trade #20, Jan 15, 2025)**  
+- **Base Rate**: 55% (product catalyst trades).  
+- **Adjustments**:  
+  - **+5%**: Stock dipped to 200MA support.  
+  - **Final Probability**: 55% + 5% = **60%**.  
+
+---
+
+### **Step 3: Validate with Historical Data**  
+Cross-reference adjustments with backtested results:  
+- **Trend Trades**: 68% win rate in bull markets (2019, 2024*).  
+- **Earnings Plays**: 45% win rate overall, but 60% when IV > 80th percentile.  
+
+---
+
+### **Step 4: Document Lessons Learned**  
+After each trade, analyze:  
+- **Why the adjustment was made** (e.g., "RSI divergence improved accuracy").  
+- **What went wrong** (e.g., "Ignored Fed hike in Trade #5").  
+
+---
+
+### **Key Tools & Metrics**  
+- **RSI Divergence**: Added ~12% edge in trend trades.  
+- **Volume Analysis**: 2x average volume added 10–15% to probability.  
+- **Macro Filters**: Reduced position size by 50% during SPX < 200MA periods.  
+
+By systematically applying Bayesian reasoning and tracking outcomes, traders refine their probability estimates over time, reducing bias and improving expectancy.
+
+![WhatsApp Image 2025-02-27 at 18 10 02](https://github.com/user-attachments/assets/a5f0986b-8fbd-4e24-a97d-c23b3343fb15)
+
+![WhatsApp Image 2025-02-27 at 18 14 22](https://github.com/user-attachments/assets/21cb3660-6dec-4ffc-8a2e-63c1a51506f9)
+
